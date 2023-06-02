@@ -247,3 +247,57 @@ form {
   background-color: rgb(91, 91, 183);
   transition: 300ms ease;
 }
+
+
+/* Estilização da página de login */
+.wrapper {	
+	margin-top: -150px;
+  margin-bottom: 200px;
+}
+
+.form-signin{
+  display: none;
+  max-width: 380px;
+  padding: 15px 35px 45px;
+  margin: 0 auto;
+  background-color: #fff;
+  z-index: 3;
+    
+}
+
+	.form-control {
+	  font-size: 16px;
+	  height: auto;
+	  padding: 10px;
+	}
+
+  .wrapper2{
+  margin-top: -350px;
+  margin-bottom: 200px;
+  
+  }
+
+  .form-signup{
+  display: none;
+  max-width: 380px;
+  padding: 15px 35px 45px;
+  margin: 0 auto;
+  background-color: #fff;
+  }
+  
+.cadastro {
+    font-size: 1.6rem;
+    padding: 1rem 2rem;
+    background-color: white;
+    border-radius: 3px;
+    color: rgb(51, 51, 182);
+    cursor: pointer;
+  }
+  
+  .cadastro:hover {
+    background-color: rgb(220, 219, 219);
+    transition: 300ms ease;
+  
+  }
+
+  

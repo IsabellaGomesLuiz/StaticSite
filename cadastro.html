@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="styleCadastro.css">
+</head>
+<body>
+    <header id="cabecalho">
+        <a href="index.html"><img class="logo" src="logo.svg" alt="" /></a>
+        <div class="container-botoes">
+          <a class="login" href="login.html">Log in</a>
+          <a class="signup" href="cadastro.html">Sign up</a>
+        </div>
+      </header>
+
+      <article class="box">
+        <header id="cabecalhoForm">
+            <h2 style="color: black;">Criar uma nova conta</h2>
+            <p>É rápido e fácil.</p>
+        </header>
+        <hr>
+        <div id="completo">
+            <input type="text" placeholder="Nome" class="completo">
+            <input type="text" placeholder="Sobrenome" class="completo">
+        </div>
+        <div id="inputs">
+          <input type="email tel" placeholder="Celular ou email" class="inputs">
+          <input type="password" placeholder="Nova senha" class="inputs">
+        </div>
+        <p class="T" for="nasc">Data de nascimento:</p>
+          <input 
+          class="inputs"
+          type="date",
+          name="nasc",
+          id="nasc",
+          min="1900-01-01",
+          max="2016-01-01"
+        />
+        <p class="T">Gênero:</p>
+          <div id="generos">
+              <fieldset>
+                    <label for="fem">Feminino</label>
+                  <input type="radio" name="gender" id="fem" value="f" />
+                  
+              </fieldset>
+              <fieldset>
+                <label for="masc">Masculino</label>
+                  <input type="radio" name="gender" id="masc" value="m" />
+              </fieldset>
+              <fieldset>
+                <label for="personalizado">Personalizado</label>
+                  <input type="radio" name="gender" id="personalizado" value="p" />
+                
+              </fieldset>
+          </div>
+          <p class="T">As pessoas que usam nosso serviço podem ter carregado suas informações de
+              contato no facebook <a href="#">Saiba mais.</a>
+          </p>
+          <p class="T">Ao clicar em Cadastre-se, você concorda com nossos <a href="#">Termos</a>, <a href="#">Política de 
+              privacidade</a> e <a href="#">Política de Cookies.</a> Você poderá receber notificações por SMS e 
+          cancelar isso quando quiser</p>
+          <footer id="footer">
+              <a href="index.html"><input id="cadastro" type="submit" value="Cadastre-se"></a>
+              <a href="login.html" style="text-decoration: none;">Já tem uma conta? Faça login!</a>
+          </footer>
+      </article>
+</body>
+</html>
